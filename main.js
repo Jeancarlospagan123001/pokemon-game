@@ -10,7 +10,7 @@ function animate(){
   ctx.drawImage(bg, 0, 0, c.width, c.height);
   if (player.dead){
     //alert("you suck");
-    window.location.href = "http://giphy.com/gifs/pokemon-thumbs-up-11EREw5fnGrlv2";
+    //window.location.href = "http://giphy.com/gifs/pokemon-thumbs-up-11EREw5fnGrlv2";
     return;
   }
   enemy.update();
