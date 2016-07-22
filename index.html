@@ -1,0 +1,37 @@
+     <!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no" />
+    <title> My first plain html5 game</title>
+    <style>
+      canvas{
+        display: block;
+        margin: 0 auto;
+      }
+      #player, #bg, .hideyokids{
+        display: none;
+      }
+      body{
+        padding:0;
+        margin:0;
+      }
+      </style>
+  </head>
+  <body>
+    <audio src="01.-pokemon-theme.mp3" autoplay></audio>
+    <img  id= "bg" src="img/2d-game.jpg" />
+    <img id="player" src="img/charmander-small.png">
+    <img class="hideyokids" id="Squirtle-man" src="img/Squirtle-man.png">
+    <img class="hideyokids" id="playerf1" src="img/playerf1.png">
+    <img class="hideyokids" id="playerf2" src="img/playerf2.png">
+    <img class="hideyokids" id="playerf3" src="img/playerf3.png">
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+
+
+    <canvas id="canvas"></canvas>
+    <script src="player.js"></script>
+    <script src="enemy.js"></script>
+    <script src="main.js"></script>
+    <script src="controls.js"></script>
+  </body>
+</html>
